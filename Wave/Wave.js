@@ -11,6 +11,7 @@ class Wave extends Component {
         <div class ="wave -three"></div>
         <div class ="wave -four"></div>
         <div class ="wave -four1"></div>
+        <div class ="wave -four2"></div>
         <div class ="wave -five"></div>
         <div class ="wave -six"></div>
       </div>
