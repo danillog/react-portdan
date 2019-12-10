@@ -1,1 +1,16 @@
 @import url('https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css');
+
+.caixa{
+  border: solid 10px black;
+  background: white;
+  z-index: 2;
+  width: 100%;
+  
+
+}
+
+.agua{
+  border: solid 10px black; 
+  z-index: 0;
+  height: 100px;
+}
