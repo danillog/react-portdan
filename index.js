@@ -21,9 +21,20 @@ class App extends Component {
           <div class="row">
             <div class="col-12 caixa">
               <div class="row">
-              <h1> {this.state.name}</h1>
-              <p>Start editing to see some magic happen aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:)</p>
-            </div>
+                <div class="col">
+                  <h1> {this.state.name}</h1>
+                  <p>Start editing to see some magic happen aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:)</p>
+                  <h1> {this.state.name}</h1>
+                  <p>Start editing to see some magic happen aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:)</p>
+                  <h1> {this.state.name}</h1>
+                  <p>Start editing to see some magic happen aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:)</p>
+                  <h1> {this.state.name}</h1>
+                  <p>Start editing to see some magic happen aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:)</p>
+                  <h1> {this.state.name}</h1>
+                  <p>Start editing to see some magic happen aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:)</p>
+
+                </div>
+              </div>
             </div>
           </div>
         </div>
