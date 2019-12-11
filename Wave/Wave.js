@@ -10,10 +10,14 @@ class Wave extends Component {
         <div class ="wave -two"></div>
         <div class ="wave -three"></div>
         <div class ="wave -four"></div>
-        <div class ="wave -four1"></div>
-        <div class ="wave -four2"></div>
         <div class ="wave -five"></div>
         <div class ="wave -six"></div>
+        <div class ="wave -seven"></div>
+        <div class ="wave -eigth"></div>
+        <div class ="wave -nine"></div>
+        <div class ="wave -ten"></div>
+        <div class ="wave -eleven"></div>
+        <div class ="wave -twelve"></div>
       </div>
     </div>
       
