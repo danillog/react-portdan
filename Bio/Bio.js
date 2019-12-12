@@ -5,14 +5,15 @@ class Bio extends Component {
   render() {
     return (
       <div className="row">
-        <div className="col-sm-4">
+        <div className="col-lg-4">
           <div className="photo">
             
             <img src="http://github.com/danillog.png" />
             
           </div>
         </div>
-        <div className="col-sm-8 text">
+        <div className="col-lg-8 text">
+          
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
             sed placerat eros. Fusce vel sem purus. Nullam eget eleifend nunc.
