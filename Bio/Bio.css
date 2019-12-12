@@ -1,5 +1,5 @@
 .photo{
- 
+  margin: 0 auto;
   width: 250px;
   height: 250px;
   border-radius: 50%;
@@ -16,11 +16,10 @@
 .glass{
   width: 400px;
   height: 400px;
-  opacity: .5;
+  
   background-image: linear-gradient(0deg, #b6b6b6 0%, #ffffff 100%);
 }
 
-.text{
+.text{ 
     margin-top: 57px;
-    
 }

@@ -7,8 +7,9 @@ class Bio extends Component {
       <div className="row">
         <div className="col-sm-4">
           <div className="photo">
+            
             <img src="http://github.com/danillog.png" />
-            <div className="glass" />
+            
           </div>
         </div>
         <div className="col-sm-8 text">
