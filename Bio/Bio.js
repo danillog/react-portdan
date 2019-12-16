@@ -30,8 +30,8 @@ class Bio extends Component {
           <p>
           Sou Danillo,  tenho {this.state.age} anos sou desenvolvedor e apaixonado por aprender coisas novas.
           </p>
-          <p> Este site mostra o que sei fazer atualmente, utilizando as tecnologias: React, JavaScript, Date-fns </p>
-          <p> Exemplo a minha idade é um estado do react, que está sendo exibida utilizando uma conta, data atual menos o meu aniversário, com funções da biblioteca date-fns </p>
+          <p> Este site mostra o que eu sei fazer , utilizando as tecnologias: React, JavaScript, Date-fns e outras </p>
+          <p> Exemplo a minha idade é um estado do react, que está sendo exibida utilizando uma conta, data atual menos o meu aniversário, com as funções da biblioteca date-fns </p>
         </div>
       </div>
     );
