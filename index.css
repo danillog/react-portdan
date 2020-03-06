@@ -7,9 +7,12 @@
   margin: 0;
 }
 
+.changeBackground{
+  background-image:linear-gradient(0deg, #002e77 0%, #0390d1 50%);
+}
 
 .caixa{
-  background-image: linear-gradient(0deg, #002e77 0%, #0390d1 100%);
+  /* background-image: linear-gradient(0deg, #002e77 0%, #0390d1 100%); */
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: 'Quattrocento', serif;
@@ -17,8 +20,9 @@
 
 .middle{
   padding-top: 8%; 
-  background-color:#002e77;
+  /* background-color:#002e77; */
   font-family: 'Quattrocento', serif;
+  color:  white;
 }
 
 .agua{

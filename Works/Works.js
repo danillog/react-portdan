@@ -4,7 +4,7 @@ import './Works.css';
 class Works extends Component {
   render() {
     return (
-    <div class="row">
+    <div class="container">
         <div className="col-lg-12 text-center workHard">
           <h3> Conhecimento aplicado em projetos </h3>
         </div>
@@ -25,13 +25,13 @@ class Works extends Component {
               </tr>
               <tr>
                 <td>
-                  <a href="https://react-agenda.stackblitz.io"> Criação de agenda</a>
+                  <a href="https://react-agenda.stackblitz.io"> Criação de agenda para agendamento de videos (em desenvolvimento)</a>
                  </td>
                 <td>ReactJS, Bootstrap</td>
               </tr>
               <tr>
                 <td>Meu Portifólio</td>
-                <td>ReactJS</td>
+                <td>ReactJS e CSS</td>
               </tr>
             </tbody>
           </table>

@@ -25,7 +25,6 @@ class Bio extends Component {
         </div>
         <div className="col-lg-8 text">
           <h4>Sou Danillo,  tenho {this.state.age} anos sou desenvolvedor e apaixonado por aprender coisas novas.</h4>
-          <p> Queria saber como tudo funcionava, e havia o mesmo sentimento com computadores, lembro-me da emoção que foi trocar a memória RAM de 512mb, do computador da minha mãe, para 1gb. Não entendia muito bem como aquele amontoado de fios e poeira deixavam aquela máquina funcionar. </p>
         </div>
       </div>
     );

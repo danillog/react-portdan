@@ -4,6 +4,8 @@ import "./index.css";
 import Wave from "./Wave/Wave";
 import Bio from "./Bio/Bio";
 import Works from "./Works/Works";
+import Design from "./Design/Design"
+
 
 class App extends Component {
   constructor() {
@@ -12,32 +14,35 @@ class App extends Component {
 
   render() {
     return (
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg title">
-            <h1> The Deep Ocean</h1>
+      <div>
+        <div className=" container-fluid changeBackground">
+          <div class="row">
+            <div class="col-lg agua">
+              <Wave />
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-lg agua">
-            <Wave />
+          <div class="row ">
+            <div class="col-sm caixa">
+              <div>
+                <Bio />
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="row ">
-          <div class="col-sm caixa">
-            <div>
-              <Bio />
+          <div class="row ">
+            <div class="col-sm middle">
+              <div>
+                <Works />
+              </div>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col-sm middle">
+              <div>
+                <Design />
+              </div>
             </div>
           </div>
         </div>
-        <div class="row ">
-          <div class="col-sm middle">
-            <div>
-              <Works />
-            </div>
-          </div>
-        </div>
-
       </div>
     );
   }
