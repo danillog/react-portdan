@@ -3,7 +3,7 @@ import { render } from "react-dom";
 import "./index.css";
 import Wave from "./Wave/Wave";
 import Bio from "./Bio/Bio";
-import History from "./History/History";
+import Works from "./Works/Works";
 
 class App extends Component {
   constructor() {
@@ -33,7 +33,7 @@ class App extends Component {
         <div class="row ">
           <div class="col-sm middle">
             <div>
-              <History />
+              <Works />
             </div>
           </div>
         </div>
