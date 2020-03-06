@@ -20,18 +20,11 @@ class Bio extends Component {
       <div className="row">
         <div className="col-lg-4">
           <div className="photo">
-            
             <img src="http://github.com/danillog.png" />
-            
           </div>
         </div>
         <div className="col-lg-8 text">
-          
-          <p>
-          Sou Danillo,  tenho {this.state.age} anos sou desenvolvedor e apaixonado por aprender coisas novas.
-          </p>
-          <p> Este site mostra o que eu sei fazer , utilizando as tecnologias: React, JavaScript, Date-fns e outras </p>
-          <p> Exemplo a minha idade é um estado do react, que está sendo exibida utilizando uma conta, data atual menos o meu aniversário, com as funções da biblioteca date-fns </p>
+          <h4>Sou Danillo,  tenho {this.state.age} anos sou desenvolvedor e apaixonado por aprender coisas novas.</h4>
         </div>
       </div>
     );
