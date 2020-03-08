@@ -18,15 +18,22 @@
   font-family: 'Quattrocento', serif;
 }
 
-.middle{
-  padding-top: 8%; 
-  /* background-color:#002e77; */
+.container{
+  padding: 2%;
+  /* background-color: #002e77; */
   font-family: 'Quattrocento', serif;
-  color:  white;
+  color: white;
+  background-color: white;
+  margin-top: 2%;
+  box-shadow: 11px 9px 20px 0px #135675;
+  
+}
+.bio-container{
+  background-color: #21b5f9;
 }
 
 .agua{
-  height: 100px;
+  height: 200px;
 }
 
 .title{

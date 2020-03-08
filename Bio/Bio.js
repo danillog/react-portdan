@@ -1,8 +1,7 @@
+import differenceInYears from 'date-fns/differenceInYears';
+import startOfToday from "date-fns/startOfToday";
 import React, { Component } from "react";
 import "./Bio.css";
-import startOfToday from "date-fns/startOfToday";
-import format from 'date-fns/format';
-import differenceInYears from 'date-fns/differenceInYears';
 
 class Bio extends Component {
     constructor() {
@@ -24,7 +23,7 @@ class Bio extends Component {
           </div>
         </div>
         <div className="col-lg-8 text">
-          <h4>Sou Danillo,  tenho {this.state.age} anos sou desenvolvedor e apaixonado por aprender coisas novas.</h4>
+          <h4>Sou Danillo,  tenho {this.state.age} anos sou desenvolvedor e apaixonado pelo mar e css.</h4>
         </div>
       </div>
     );

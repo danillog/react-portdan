@@ -4,12 +4,12 @@ import './Works.css';
 class Works extends Component {
   render() {
     return (
-    <div class="container">
+    <div>
         <div className="col-lg-12 text-center workHard">
           <h3> Conhecimento aplicado em projetos </h3>
         </div>
         <div className="col-lg-12 text-center works text-break">
-          <table className="table table-ocean">
+          <table className="table">
             <thead>
               <tr>
                 <th>Trabalho</th>

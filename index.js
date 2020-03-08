@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
+import Bio from "./Bio/Bio";
+import Design from "./Design/Design";
+import Footer from "./Footer/Footer";
 import "./index.css";
 import Wave from "./Wave/Wave";
-import Bio from "./Bio/Bio";
 import Works from "./Works/Works";
-import Design from "./Design/Design"
-
 
 class App extends Component {
   constructor() {
@@ -14,34 +14,21 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        <div className=" container-fluid changeBackground">
-          <div class="row">
-            <div class="col-lg agua">
-              <Wave />
-            </div>
-          </div>
-          <div class="row ">
-            <div class="col-sm caixa">
-              <div>
-                <Bio />
-              </div>
-            </div>
-          </div>
-          <div class="row ">
-            <div class="col-sm middle">
-              <div>
-                <Works />
-              </div>
-            </div>
-          </div>
-          <div class="row ">
-            <div class="col-sm middle">
-              <div>
-                <Design />
-              </div>
-            </div>
-          </div>
+      <div className=" changeBackground">
+          <div class="col-lg agua">
+            <Wave />
+          </div>  
+        <div className="container bio-container">
+          <Bio />
+        </div>
+        <div class="container">
+          <Works />
+        </div>
+        <div class="container">
+          <Design />
+        </div>
+        <div className="container-fluid">
+          <Footer />
         </div>
       </div>
     );

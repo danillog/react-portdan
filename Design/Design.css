@@ -1,8 +1,8 @@
 .workHard{
-  color: #9ad0ff;;
-  padding: 2px 0 2px 0;
+  color: black;
+  padding: 2px 0 15px 0;
   font-family: Girassol, 'Times New Roman', Times, serif;
-  text-shadow: 2px 1px 5px #000035;
+
 }
 .card{
   background-color: none;
@@ -10,18 +10,17 @@
   padding: 1px;
 }
 
-.card img{
-  width: 100%;
-}
 
 .column {
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
+  margin: 10px
 }
 
 .column img {
-  padding-top: 10px;
   vertical-align: middle;
-  width: 100%;
+  border: 6px solid whitesmoke;
+  box-shadow: 4px 8px 11px 0px darkgrey;
+
 }
