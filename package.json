@@ -1,16 +1,48 @@
+// {
+//   "name": "react",
+//   "version": "0.0.0",
+//   "private": true,
+//   "dependencies": {
+//     "@fortawesome/fontawesome-svg-core": "^1.2.27",
+//     "@fortawesome/free-brands-svg-icons": "^5.12.1",
+//     "@fortawesome/free-solid-svg-icons": "^5.12.1",
+//     "@fortawesome/react-fontawesome": "^0.1.8",
+//     "date-fns": "^2.8.1",
+//     "react": "^16.9.0",
+//     "react-dom": "^16.9.0",
+//     "react-medium-image-zoom": "^4.2.0"
+//   },
+//   "scripts": {
+//     "start": "react-scripts start",
+//     "build": "react-scripts build",
+//     "test": "react-scripts test --env=jsdom",
+//     "eject": "react-scripts eject"
+//   },
+//   "devDependencies": {
+//     "react-scripts": "latest"
+//   },
+//   "browserslist": {
+//     "production": [
+//       ">0.2%",
+//       "not dead",
+//       "not op_mini all"
+//     ],
+//     "development": [
+//       "last 1 chrome version",
+//       "last 1 firefox version",
+//       "last 1 safari version"
+//     ]
+//   }
+// }
+
 {
   "name": "react",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.27",
-    "@fortawesome/free-brands-svg-icons": "^5.12.1",
-    "@fortawesome/free-solid-svg-icons": "^5.12.1",
-    "@fortawesome/react-fontawesome": "^0.1.8",
     "date-fns": "^2.8.1",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-medium-image-zoom": "^4.2.0"
+    "react-dom": "^16.9.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -20,17 +52,5 @@
   },
   "devDependencies": {
     "react-scripts": "latest"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   }
 }

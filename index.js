@@ -24,12 +24,12 @@ class App extends Component {
         <div class="container">
           <Works />
         </div>
-        <div class="container">
-          <Design />
-        </div>
-        <div className="container-fluid">
-          <Footer />
-        </div>
+        // <div class="container">
+        //   <Design />
+        // </div>
+        // <div className="container-fluid">
+        //   <Footer />
+        // </div>
       </div>
     );
   }
