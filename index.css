@@ -28,9 +28,6 @@
   box-shadow: 11px 9px 20px 0px #135675;
   
 }
-.bio-container{
-  background-color: #21b5f9;
-}
 
 .agua{
   height: 200px;
@@ -44,4 +41,16 @@
 }
 .title h1{
     font-size: 4.5rem;
+}
+
+@media only screen and (max-width: 1024px){
+  .title h1{
+    font-size: large;
+  }
+  p, a{
+    font-size: large;
+  }
+  h3{
+    font-size: x-large;
+  }
 }

@@ -14,16 +14,15 @@ class Bio extends Component {
 
 
   render() {
-    console.log(this.state.age)
     return (
       <div className="row">
         <div className="col-lg-4">
           <div className="photo">
-            <img src="http://github.com/danillog.png" />
+            <img alt="Foto de perfil do github" src="http://github.com/danillog.png" />
           </div>
         </div>
         <div className="col-lg-8 text">
-          <h4>Sou Danillo,  tenho {this.state.age} anos sou desenvolvedor e apaixonado pelo mar e css.</h4>
+          <h4>Sou Danillo,  tenho {this.state.age} anos sou desenvolvedor e nas horas livres gosto de estudar tipografia.</h4>
         </div>
       </div>
     );

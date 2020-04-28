@@ -8,10 +8,6 @@ import Wave from "./Wave/Wave";
 import Works from "./Works/Works";
 
 class App extends Component {
-  constructor() {
-    super();
-  }
-
   render() {
     return (
       <div className=" changeBackground">
@@ -24,12 +20,12 @@ class App extends Component {
         <div class="container">
           <Works />
         </div>
-        // <div class="container">
-        //   <Design />
-        // </div>
-        // <div className="container-fluid">
-        //   <Footer />
-        // </div>
+        <div class="container">
+          <Design />
+        </div>
+        <div className="container-fluid">
+          <Footer />
+        </div>
       </div>
     );
   }

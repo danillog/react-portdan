@@ -21,7 +21,7 @@ a:link {
 
 /* link que foi visitado */
 a:visited {
-    color: white;
+    color: black;
 }
 
 /* mouse over */
