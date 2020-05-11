@@ -2,12 +2,20 @@
   background: #00327b;
   color:white;
   font-family: 'Quattrocento', serif;
-  
-
-  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
 }
+
+  .copyright p{
+    border-top:1px solid rgba(255,255,255,.1);
+  } 
+
+
+
 .icons a{ 
     padding-left: 10px;
     color: white;
     font-size: 20px;
-  }
+}
+
+.icons a:visited{
+    color: white;
+}

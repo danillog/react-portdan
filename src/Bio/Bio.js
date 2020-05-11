@@ -1,7 +1,9 @@
 import differenceInYears from 'date-fns/differenceInYears';
 import startOfToday from "date-fns/startOfToday";
 import React, { Component } from "react";
+import i18n from "../i18n";
 import "./Bio.css";
+
 
 class Bio extends Component {
     constructor() {
@@ -22,7 +24,7 @@ class Bio extends Component {
           </div>
         </div>
         <div className="col-lg-8 text">
-          <h4>Sou Danillo,  tenho {this.state.age} anos sou desenvolvedor e nas horas livres gosto de estudar tipografia.</h4>
+    <h4>{i18n.t("bioI")} {this.state.age}{i18n.t("bio")}</h4>
         </div>
       </div>
     );
