@@ -1,6 +1,6 @@
 .footer{
-  background: #00327b;
-  color:white;
+  background: black;
+  color:rgb(255 200 0);
   font-family: 'Quattrocento', serif;
 }
 
@@ -8,14 +8,11 @@
     border-top:1px solid rgba(255,255,255,.1);
   } 
 
-
-
 .icons a{ 
     padding-left: 10px;
-    color: white;
+    color: rgb(255 200 0);
     font-size: 20px;
 }
-
-.icons a:visited{
-    color: white;
+.icons a:hover{
+  color: white;
 }

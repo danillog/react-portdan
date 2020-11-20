@@ -1,7 +1,7 @@
 import { faBehance, faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { Component } from 'react';
-import i18n from '../i18n';
+import i18n from '../../i18n';
 import './Footer.css';
 
 class Footer extends Component {
@@ -14,7 +14,7 @@ class Footer extends Component {
                         <p>{i18n.t("contato")} </p>
                         <p className="icons">
                             <a href="https://www.behance.net/danillogomes" target="_blank" rel="noopener noreferrer" ><FontAwesomeIcon  icon={faBehance} /> </a>
-                            <a href="https://github.com/danillog" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon  icon={faGithub} /></a>
+                            <a href="https://github.com/danillog" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon  icon={faGithub} /> </a>
                             <a href="https://www.instagram.com/danillo.otavio/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon  icon={faInstagram} /></a>
                             <a href="https://www.linkedin.com/in/danillo-otávio-gomes-66b12610a" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon  icon={faLinkedin} /></a>
                         </p>

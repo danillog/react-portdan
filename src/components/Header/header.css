@@ -1,0 +1,25 @@
+#header{
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+#logo{
+  margin: auto 0;
+  text-align: center;
+}
+#logo img{
+  width: 200px;
+  filter: opacity(1) drop-shadow(2px 2px 0px #ffc800);
+}
+
+#logo h2{
+  color: #ffc800;
+  font-size: xxx-large;
+  text-shadow: 3px 2px 0px #ff700b;
+  font-family: Girassol, 'Times New Roman', Times, serif;
+}
+
+#language{
+  width: 200px;
+  margin: 0 auto ;
+}

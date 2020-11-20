@@ -1,0 +1,20 @@
+#work h2{
+  text-align: center;
+  font-size: xxx-large;
+  text-shadow: 4px -2px 5px #ff700b;
+  color: black;
+  margin-bottom: 50px;
+}
+.card{
+  margin-bottom: 100px;
+  background-color: #2b2b2b !important;
+  color: white; 
+  transition: 1s;
+}
+.card:hover{
+  transition: 1s;
+  box-shadow: 9px -7px 16px 10px #0000005c;;
+}
+.card a{
+  border: none;
+}

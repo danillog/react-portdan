@@ -8,46 +8,34 @@
 }
 
 .changeBackground{
-  background-image:linear-gradient(0deg, #002e77 0%, #0390d1 50%);
-}
-
-.caixa{
-  /* background-image: linear-gradient(0deg, #002e77 0%, #0390d1 100%); */
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-family: 'Quattrocento', serif;
+  background-color: #2b2b2b;
 }
 
 .container{
-  padding: 2%;
-  /* background-color: #002e77; */
+  padding: 40px;
   font-family: 'Quattrocento', serif;
-  color: white;
-  background-color: white;
-  margin-top: 2%;
-  box-shadow: 11px 9px 20px 0px #135675;
-  border-radius: 12px;
+  background-color: rgb(255 200 0);
+  margin-top: 50px;
+  box-shadow: 10px 14px 0px 0px #ff700b;
 }
 
-.agua{
-  height: 200px;
-}
-
-.title{
-  height: 200px;
-  text-align: center;
-  font-family: Girassol, 'Times New Roman', Times, serif;
-}
-.title h1{
-    font-size: 4.5rem;
-}
-
-.language{
-  color: black;
-}
 .container-fluid{
   padding-left: 0;
   padding-right: 0;
+}
+
+.row{
+  margin-right: 0px;
+   margin-left: 0px;
+}
+
+.iconWhats{
+  font-size: 4.2rem;
+  color:#00b300;
+  position: fixed;
+  z-index: 1000;
+  left: 1rem;
+  top: 80%;
 }
 
 @media only screen and (max-width: 1024px){
@@ -59,5 +47,8 @@
   }
   h3{
     font-size: x-large;
+  }
+  .container{
+    box-shadow: 19px 14px 0px 0px #ff700b;
   }
 }
